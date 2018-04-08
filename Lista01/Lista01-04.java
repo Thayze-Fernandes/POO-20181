@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Lista01-01 {
+class Lista0104 {
 	public static void main(String args[]){
 		Scanner ler = new Scanner(System.in);
 		float nota1, nota2, nota3, nota4;
@@ -19,7 +19,7 @@ class Lista01-01 {
 		if(media >= 70){
 			System.out.println("Aprovado");
 		}
-		elif(media < 70 or media >= 50){
+		else if(media < 70 || media >= 50){
 			System.out.println("Final");
 		}
 		else{

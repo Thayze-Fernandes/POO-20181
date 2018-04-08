@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Lista01-01 {
+class Lista0103 {
 	public static void main(String args[]){
 		Scanner ler = new Scanner(System.in);
 		float nota1, nota2, nota3;
@@ -12,8 +12,8 @@ class Lista01-01 {
 		nota3 = ler.nextFloat();
 		
 		float media;
-		media = nota1 * 2 + nota2 * 3 + nota3 * 5;
+		media = (nota1 * 2 + nota2 * 3 + nota3 * 5) /3;
 		
-		System.out.println("A média do aluno é: " + media);
+		System.out.printf("A media do aluno e: %.2f", media);
 	}
 }

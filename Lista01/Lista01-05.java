@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Lista01-01 {
+class Lista0105 {
 	public static void main(String args[]){
 		Scanner ler = new Scanner(System.in);
 		int numero;
@@ -8,29 +8,29 @@ class Lista01-01 {
 		numero = ler.nextInt();
 		
 		switch (numero) {
-			case 1 : System.out.println(“Janeiro”);
+			case 1 : System.out.println("Janeiro");
 			break;
-			case 2 : System.out.println(“Fevereiro”);
+			case 2 : System.out.println("Fevereiro");
 			break;
-			case 3 : System.out.println(“Marco”);
+			case 3 : System.out.println("Marco");
 			break;
-			case 4 : System.out.println(“Abril”);
+			case 4 : System.out.println("Abril");
 			break;
-			case 5 : System.out.println(“Maio”);
+			case 5 : System.out.println("Maio");
 			break;
-			case 6 : System.out.println(“Junho”);
+			case 6 : System.out.println("Junho");
 			break;
-			case 7 : System.out.println(“Julho”);
+			case 7 : System.out.println("Julho");
 			break;
-			case 8 : System.out.println(“Agosto”);
+			case 8 : System.out.println("Agosto");
 			break;
-			case 9 : System.out.println(“Setembro”);
+			case 9 : System.out.println("Setembro");
 			break;
-			case 10 : System.out.println(“Outubro”);
+			case 10 : System.out.println("Outubro");
 			break;
-			case 11 : System.out.println(“Novembro”);
+			case 11 : System.out.println("Novembro");
 			break;
-			case 12 : System.out.println(“Dezembro”);
+			case 12 : System.out.println("Dezembro");
 			break;
 		}
 	}
